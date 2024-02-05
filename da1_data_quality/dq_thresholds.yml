@@ -1,0 +1,20 @@
+completeness:
+  good: 0.95 <= x
+  medium: 0.90 <= x < 0.95
+  bad: x < 0.90
+accuracy:
+  good: x < 0.02
+  medium: 0.02 <= x < 0.10
+  bad: 0.10 <= x
+timeliness:
+  good: x < 0.20
+  medium: 0.20 <= x < 0.50
+  bad: 0.50 <= x
+uniqueness:
+  good: x < 0.01
+  medium: 0.01 <= x < 0.02
+  bad: 0.02 <= x
+validity:
+  good: x < 0.05
+  medium: 0.05 <= x < 0.10
+  bad: 0.10 <= x
